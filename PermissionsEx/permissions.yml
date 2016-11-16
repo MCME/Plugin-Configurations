@@ -35,7 +35,6 @@ groups:
       default: 'true'
       rank: '800'
     permissions:
-    - guidebook.user
     - -essentials.list
     - architect.ranks.adventurer
     - BuildFixes.builder
@@ -74,6 +73,7 @@ groups:
     - essentials.tpahere
     - essentials.tpdeny
     - group.adventurer
+    - guidebook.user
     - MCMESuite.afk
     - MCMESuite.fly
     - MCMESuite.msg
@@ -123,14 +123,14 @@ groups:
     options:
       rank: '700'
     permissions:
-    - guidebook.staff
     - chatsuite.groups.guide
     - essentials.back
     - essentials.enderchest
     - essentials.jump
     - essentials.tp
-    - minigames.manager
     - group.guide
+    - guidebook.staff
+    - minigames.manager
     - tab.color.darkaqua
     - Tours.ranger
     inheritance: []
@@ -139,12 +139,13 @@ groups:
       rank: '600'
     permissions:
     - -chatsuite.groups.adventurer
-    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
+    - -chatsuite.groups.headdesigner
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.oathbreaker
+    - -minigames.manager
     - -tab.color.darkaqua
     - -Tours.ranger
     - architect.ranks.artist
@@ -156,13 +157,12 @@ groups:
     - essentials.list
     - essentials.oversizedstacks
     - group.artist
-    - -minigames.manager
     - minigames.user
     - mv.bypass.gamemode.*
     - plotbuild.trusted
     - tab.color.darkpurple
-    - Tours.user
     - thegaffer.ignoreprotection
+    - Tours.user
     inheritance: []
   designer:
     options:
@@ -299,8 +299,8 @@ groups:
     - prism.restore
     - prism.rollback
     - prism.setmy.wand
-    - prism.tp
-    - prism.view
+    - prism.tpf
+    - prism.viewf
     - prism.wand.*
     - privileges.demote
     - privileges.promote
@@ -321,10 +321,9 @@ groups:
     - worldguard.notify
     inheritance: []
   headdesigner:
-    options:
+    options:f
       rank: '300'
     permissions:
-    - perks.trophy
     - architect.ranks.headDesigner
     - chatsuite.groups.headdesigner
     - dynmap.hide.self
@@ -333,21 +332,22 @@ groups:
     - essentials.ban.offline
     - essentials.seen
     - group.headdesigner
+    - perks.trophy
     - permissions.user.demote.default
     - permissions.user.promote.default
     - plotmanager.create
     - prism.help
-    - prism.wand.inspect
-    - prism.wand.profile
-    - prism.setmy.wand
-    - prism.parameters.*
     - prism.lookup
     - prism.lookup.paginate
+    - prism.parameters.*
+    - prism.setmy.wand
     - prism.tp
     - prism.view
+    - prism.wand.inspect
+    - prism.wand.profile
     - pv.help
-    - pv.use
     - pv.list
+    - pv.use
     - resourceregions.region
     - tab.color.red
     inheritance: []
@@ -355,8 +355,8 @@ groups:
     options:
       rank: '200'
     permissions:
-    - perks.trophy
     - group.headenforcer
+    - perks.trophy
     - permissions.user.demote.default
     - permissions.user.promote.default
     - tab.color.red
@@ -366,9 +366,7 @@ groups:
   root:
     options:
       rank: '1'
-      ListColor: c
     permissions:
-    - perks.trophy
     - -essentials.afk.auto
     - -essentials.silentjoin.vanish
     - dynmap.*
@@ -376,6 +374,7 @@ groups:
     - essentials.joinfullserver
     - group.root
     - mywarp.warp.world.*
+    - perks.trophy
     - permissions.*
     - privileges.*
     - tab.color.darkred
