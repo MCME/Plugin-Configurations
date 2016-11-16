@@ -5,10 +5,10 @@ groups:
     permissions:
     - -chatsuite.groups.adventurer
     - -chatsuite.groups.artist
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -dynmap.hide.self
     - -dynmap.marker.icons
@@ -45,10 +45,10 @@ groups:
     - guidebook.user
     - -essentials.list
     - -chatsuite.groups.artist
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -chatsuite.groups.oathbreaker
     - -ctl.italic
@@ -150,10 +150,10 @@ groups:
     - guidebook.staff
     - -chatsuite.groups.adventurer
     - -chatsuite.groups.artist
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.oathbreaker
     - chatsuite.groups.guide
     - essentials.back
@@ -171,10 +171,10 @@ groups:
       rank: '600'
     permissions:
     - -chatsuite.groups.adventurer
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -chatsuite.groups.oathbreaker
     - -tab.color.darkaqua
@@ -203,9 +203,9 @@ groups:
     permissions:
     - -chatsuite.groups.adventurer
     - -chatsuite.groups.artist
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -chatsuite.groups.oathbreaker
     - -tab.color.darkpurple
@@ -263,9 +263,9 @@ groups:
     permissions:
     - -chatsuite.groups.adventurer
     - -chatsuite.groups.artist
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -chatsuite.groups.oathbreaker
     - -prism.parameters.action.required
@@ -378,7 +378,7 @@ groups:
     - worldguard.notify
     inheritance:
     - artist
-  buildvalar:
+  headdesigner:
     options:
       rank: '300'
     permissions:
@@ -387,17 +387,17 @@ groups:
     - -chatsuite.groups.artist
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -chatsuite.groups.oathbreaker
     - architect.ranks.headDesigner
-    - chatsuite.groups.buildvalar
+    - chatsuite.groups.headdesigner
     - dynmap.hide.self
     - dynmap.show.self
     - essentials.ban
     - essentials.ban.offline
     - essentials.seen
-    - group.buildvalar
+    - group.headdesigner
     - permissions.user.demote.default
     - permissions.user.promote.default
     - plotmanager.create
@@ -417,20 +417,20 @@ groups:
     - tab.color.red
     inheritance:
     - designer
-  enforcervalar:
+  headenforcer:
     options:
       rank: '200'
     permissions:
     - perks.trophy
     - -chatsuite.groups.adventurer
     - -chatsuite.groups.artist
-    - -chatsuite.groups.buildvalar
+    - -chatsuite.groups.headdesigner
     - -chatsuite.groups.designer
     - -chatsuite.groups.enforcer
-    - -chatsuite.groups.enforcervalar
+    - -chatsuite.groups.headenforcer
     - -chatsuite.groups.guide
     - -chatsuite.groups.oathbreaker
-    - group.enforcervalar
+    - group.headenforcer
     - permissions.user.demote.default
     - permissions.user.promote.default
     - tab.color.red
