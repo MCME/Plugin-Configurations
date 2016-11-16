@@ -164,8 +164,7 @@ groups:
     - group.guide
     - tab.color.darkaqua
     - Tours.ranger
-    inheritance:
-    - adventurer
+    inheritance: []
   artist:
     options:
       rank: '600'
@@ -195,8 +194,7 @@ groups:
     - tab.color.darkpurple
     - Tours.user
     - thegaffer.ignoreprotection
-    inheritance:
-    - guide
+    inheritance: []
   designer:
     options:
       rank: '500'
@@ -255,8 +253,7 @@ groups:
     - voxelsniper.sniper
     - worldedit.*
     - worldguard.halt-activity
-    inheritance:
-    - artist
+    inheritance: []
   enforcer:
     options:
       rank: '400'
@@ -376,8 +373,7 @@ groups:
     - worldedit.navigation.*
     - worldedit.remove
     - worldguard.notify
-    inheritance:
-    - artist
+    inheritance: []
   headdesigner:
     options:
       rank: '300'
@@ -415,8 +411,7 @@ groups:
     - pv.list
     - resourceregions.region
     - tab.color.red
-    inheritance:
-    - designer
+    inheritance: []
   headenforcer:
     options:
       rank: '200'
@@ -436,8 +431,7 @@ groups:
     - tab.color.red
     - Tours.admin
     - Tours.ranger
-    inheritance:
-    - enforcer
+    inheritance: []
   root:
     options:
       rank: '1'
