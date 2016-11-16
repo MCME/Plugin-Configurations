@@ -3,13 +3,6 @@ groups:
     options:
       rank: '900'
     permissions:
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.guide
     - -dynmap.hide.self
     - -dynmap.marker.icons
     - -dynmap.marker.list
@@ -44,23 +37,6 @@ groups:
     permissions:
     - guidebook.user
     - -essentials.list
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.oathbreaker
-    - -ctl.italic
-    - -dynmap.hide.self
-    - -dynmap.marker.icons
-    - -dynmap.marker.list
-    - -dynmap.marker.listsets
-    - -dynmap.render
-    - -dynmap.show.self
-    - -dynmap.stats
-    - -privileges.list
-    - -privileges.user
     - architect.ranks.adventurer
     - BuildFixes.builder
     - chatsuite.groups.adventurer
@@ -148,13 +124,6 @@ groups:
       rank: '700'
     permissions:
     - guidebook.staff
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.oathbreaker
     - chatsuite.groups.guide
     - essentials.back
     - essentials.enderchest
@@ -199,19 +168,6 @@ groups:
     options:
       rank: '500'
     permissions:
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.oathbreaker
-    - -tab.color.darkpurple
-    - -worldedit.delchunks
-    - -worldedit.fast
-    - -worldedit.limit.unrestricted
-    - -worldedit.snapshots.list
-    - -worldedit.snapshots.restore
     - architect.ranks.designer
     - autoteleport.user
     - BuildFixes.moderator
@@ -258,16 +214,6 @@ groups:
     options:
       rank: '400'
     permissions:
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.oathbreaker
-    - -prism.parameters.action.required
-    - -tab.color.darkpurple
-    - -worldedit.*
     - BuildFixes.moderator
     - bukkit.command.ban.list
     - bukkit.command.ban.player
@@ -379,13 +325,6 @@ groups:
       rank: '300'
     permissions:
     - perks.trophy
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.oathbreaker
     - architect.ranks.headDesigner
     - chatsuite.groups.headdesigner
     - dynmap.hide.self
@@ -417,14 +356,6 @@ groups:
       rank: '200'
     permissions:
     - perks.trophy
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.artist
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.oathbreaker
     - group.headenforcer
     - permissions.user.demote.default
     - permissions.user.promote.default
