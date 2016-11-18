@@ -17,7 +17,6 @@ groups:
     - -privileges.user
     - -thegaffer.join
     - -Tours.user
-    - chatsuite.groups.oathbreaker
     - dynmap.webregister
     - essentials.ban.notify
     - essentials.kick.notify
@@ -38,7 +37,6 @@ groups:
     - -essentials.list
     - architect.ranks.adventurer
     - BuildFixes.builder
-    - chatsuite.groups.adventurer
     - dynmap.webregister
     - essentials.afk
     - essentials.back
@@ -123,7 +121,6 @@ groups:
     options:
       rank: '700'
     permissions:
-    - chatsuite.groups.guide
     - essentials.back
     - essentials.enderchest
     - essentials.jump
@@ -138,18 +135,10 @@ groups:
     options:
       rank: '600'
     permissions:
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.oathbreaker
     - -minigames.manager
     - -tab.color.darkaqua
     - -Tours.ranger
     - architect.ranks.artist
-    - chatsuite.groups.artist
     - essentials.afk.kickexempt
     - essentials.gamemode
     - essentials.item
@@ -171,7 +160,6 @@ groups:
     - architect.ranks.designer
     - autoteleport.user
     - BuildFixes.moderator
-    - chatsuite.groups.designer
     - dynmap.radiusrender
     - essentials.bigtree
     - essentials.give
@@ -219,7 +207,6 @@ groups:
     - bukkit.command.ban.player
     - bukkit.command.kick
     - bukkit.command.unban.player
-    - chatsuite.groups.enforcer
     - dynmap.hide.self
     - dynmap.radiusrender
     - dynmap.show.self
@@ -325,7 +312,6 @@ groups:
       rank: '300'
     permissions:
     - architect.ranks.headDesigner
-    - chatsuite.groups.headdesigner
     - dynmap.hide.self
     - dynmap.show.self
     - essentials.ban
