@@ -17,7 +17,6 @@ groups:
     - -privileges.user
     - -thegaffer.join
     - -Tours.user
-    - chatsuite.groups.oathbreaker
     - dynmap.webregister
     - essentials.ban.notify
     - essentials.kick.notify
@@ -36,12 +35,21 @@ groups:
       rank: '800'
     permissions:
     - -essentials.list
-    - architect.ranks.adventurer
     - BuildFixes.builder
-    - chatsuite.groups.adventurer
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - Tours.user
+    - architect.ranks.adventurer
     - dynmap.webregister
     - essentials.afk
     - essentials.back
+    - essentials.ban.notify
     - essentials.ban.notify
     - essentials.chat.url
     - essentials.clearinventory
@@ -51,6 +59,7 @@ groups:
     - essentials.fly.safelogin
     - essentials.home
     - essentials.home.bed
+    - essentials.kick.notify
     - essentials.kick.notify
     - essentials.kit
     - essentials.kits.*
@@ -62,11 +71,14 @@ groups:
     - essentials.msg.magic
     - essentials.msg.url
     - essentials.mute.notify
+    - essentials.mute.notify
     - essentials.ptime
     - essentials.pweather
     - essentials.rules
+    - essentials.rules
     - essentials.sethome
     - essentials.sethome.bed
+    - essentials.spawn
     - essentials.spawn
     - essentials.tpa
     - essentials.tpaccept
@@ -74,14 +86,6 @@ groups:
     - essentials.tpdeny
     - group.adventurer
     - guidebook.user
-    - MCMESuite.afk
-    - MCMESuite.fly
-    - MCMESuite.msg
-    - MCMESuite.nodeathdrop
-    - MCMESuite.noharvest
-    - MCMESuite.nothrow
-    - MCMESuite.phial
-    - MCMESuite.ring
     - minigames.user
     - multiverse.access.moria
     - multiverse.access.newplayerworld
@@ -89,6 +93,7 @@ groups:
     - multiverse.access.plotworld
     - multiverse.access.themed-builds
     - multiverse.access.world
+    - multiverse.core.spawn.self
     - multiverse.core.spawn.self
     - multiverse.teleport.self.oldworld
     - multiverse.teleport.self.w
@@ -101,6 +106,7 @@ groups:
     - mywarp.warp.basic.search
     - mywarp.warp.basic.update
     - mywarp.warp.basic.warp
+    - mywarp.warp.sign.use
     - mywarp.warp.sign.use
     - mywarp.warp.soc.accept
     - mywarp.warp.soc.give
@@ -115,99 +121,345 @@ groups:
     - plotmanager.build
     - thegaffer.join
     - topics.rules
-    - Tours.user
-    - worldedit.navigation.unstuck
     - worldedit.navigation.unstuck
     inheritance: []
   guide:
     options:
       rank: '700'
     permissions:
-    - chatsuite.groups.guide
+    - -essentials.list
+    - BuildFixes.builder
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - Tours.ranger
+    - dynmap.webregister
+    - essentials.afk
     - essentials.back
+    - essentials.back
+    - essentials.ban.notify
+    - essentials.ban.notify
+    - essentials.chat.url
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.depth
     - essentials.enderchest
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.home
+    - essentials.home.bed
     - essentials.jump
+    - essentials.kick.notify
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.more
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.mute.notify
+    - essentials.mute.notify
+    - essentials.ptime
+    - essentials.pweather
+    - essentials.rules
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - essentials.spawn
     - essentials.tp
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
     - group.guide
     - guidebook.staff
+    - guidebook.user
     - minigames.manager
+    - minigames.user
+    - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
+    - multiverse.access.themed-builds
+    - multiverse.access.world
+    - multiverse.core.spawn.self
+    - multiverse.core.spawn.self
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.w
+    - multiverse.teleport.self.world
+    - mywarp.warp.basic.assets
+    - mywarp.warp.basic.compass
+    - mywarp.warp.basic.createprivate
+    - mywarp.warp.basic.delete
+    - mywarp.warp.basic.list
+    - mywarp.warp.basic.search
+    - mywarp.warp.basic.update
+    - mywarp.warp.basic.warp
+    - mywarp.warp.sign.use
+    - mywarp.warp.sign.use
+    - mywarp.warp.soc.accept
+    - mywarp.warp.soc.give
+    - mywarp.warp.soc.give.direct
+    - mywarp.warp.soc.invite
+    - mywarp.warp.soc.invite.group
+    - mywarp.warp.soc.private
+    - mywarp.warp.soc.uninvite
+    - mywarp.warp.soc.uninvite.group
+    - mywarp.warp.world.currentworld
+    - plotbuild.user
+    - plotmanager.build
     - tab.color.darkaqua
-    - Tours.ranger
+    - thegaffer.join
+    - topics.rules
+    - worldedit.navigation.unstuck
     inheritance: []
   artist:
     options:
       rank: '600'
     permissions:
-    - -chatsuite.groups.adventurer
-    - -chatsuite.groups.designer
-    - -chatsuite.groups.enforcer
-    - -chatsuite.groups.guide
-    - -chatsuite.groups.headdesigner
-    - -chatsuite.groups.headenforcer
-    - -chatsuite.groups.oathbreaker
-    - -minigames.manager
-    - -tab.color.darkaqua
-    - -Tours.ranger
+    - -essentials.list
+    - BuildFixes.builder
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - Tours.user
     - architect.ranks.artist
-    - chatsuite.groups.artist
+    - dynmap.webregister
+    - essentials.afk
     - essentials.afk.kickexempt
+    - essentials.back
+    - essentials.ban.notify
+    - essentials.ban.notify
+    - essentials.chat.url
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.depth
+    - essentials.fly
+    - essentials.fly.safelogin
     - essentials.gamemode
+    - essentials.home
+    - essentials.home.bed
     - essentials.item
     - essentials.joinfullserver
+    - essentials.kick.notify
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.*
     - essentials.list
+    - essentials.more
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.mute.notify
+    - essentials.mute.notify
     - essentials.oversizedstacks
+    - essentials.ptime
+    - essentials.pweather
+    - essentials.rules
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - group.adventurer
     - group.artist
+    - guidebook.user
     - minigames.user
+    - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
+    - multiverse.access.themed-builds
+    - multiverse.access.world
+    - multiverse.core.spawn.self
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.world
     - mv.bypass.gamemode.*
+    - mywarp.warp.basic.assets
+    - mywarp.warp.basic.compass
+    - mywarp.warp.basic.createprivate
+    - mywarp.warp.basic.delete
+    - mywarp.warp.basic.list
+    - mywarp.warp.basic.search
+    - mywarp.warp.basic.update
+    - mywarp.warp.basic.warp
+    - mywarp.warp.sign.use
+    - mywarp.warp.sign.use
+    - mywarp.warp.soc.accept
+    - mywarp.warp.soc.give
+    - mywarp.warp.soc.give.direct
+    - mywarp.warp.soc.invite
+    - mywarp.warp.soc.invite.group
+    - mywarp.warp.soc.private
+    - mywarp.warp.soc.uninvite
+    - mywarp.warp.soc.uninvite.group
+    - mywarp.warp.world.currentworld
     - plotbuild.trusted
+    - plotbuild.user
+    - plotmanager.build
     - tab.color.darkpurple
     - thegaffer.ignoreprotection
-    - Tours.user
+    - thegaffer.join
+    - topics.rules
+    - worldedit.navigation.unstuck
     inheritance: []
   designer:
     options:
       rank: '500'
     permissions:
+    - -essentials.list
+    - BuildFixes.builder
+    - BuildFixes.moderator
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - Tours.user
     - architect.ranks.designer
     - autoteleport.user
-    - BuildFixes.moderator
-    - chatsuite.groups.designer
     - dynmap.radiusrender
+    - dynmap.webregister
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.back
+    - essentials.ban.notify
+    - essentials.ban.notify
     - essentials.bigtree
+    - essentials.chat.url
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.depth
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
     - essentials.give
+    - essentials.home
+    - essentials.home.bed
+    - essentials.item
+    - essentials.joinfullserver
     - essentials.jump
     - essentials.kick
+    - essentials.kick.notify
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.list
+    - essentials.more
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.mute.notify
+    - essentials.mute.notify
+    - essentials.oversizedstacks
+    - essentials.ptime
+    - essentials.pweather
     - essentials.recipe
+    - essentials.rules
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - essentials.spawn
     - essentials.tp
     - essentials.tp.others
+    - essentials.tpa
     - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
     - essentials.tphere
     - essentials.tppos
     - essentials.unlimited
     - essentials.workbench
     - group.designer
-    - MCMESuite.admin
+    - guidebook.user
     - minigames.staff
+    - minigames.user
     - multiverse.access.moria
+    - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
     - multiverse.access.private
+    - multiverse.access.themed-builds
+    - multiverse.access.world
+    - multiverse.core.spawn.self
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.world
+    - mv.bypass.gamemode.*
+    - mywarp.warp.basic.assets
+    - mywarp.warp.basic.compass
+    - mywarp.warp.basic.createprivate
     - mywarp.warp.basic.createprivate
     - mywarp.warp.basic.createpublic
     - mywarp.warp.basic.delete
+    - mywarp.warp.basic.delete
+    - mywarp.warp.basic.list
+    - mywarp.warp.basic.search
+    - mywarp.warp.basic.update
+    - mywarp.warp.basic.warp
     - mywarp.warp.basic.welcome
     - mywarp.warp.sign.create
     - mywarp.warp.sign.create.all
+    - mywarp.warp.sign.use
+    - mywarp.warp.sign.use
+    - mywarp.warp.soc.accept
+    - mywarp.warp.soc.give
+    - mywarp.warp.soc.give.direct
+    - mywarp.warp.soc.invite
+    - mywarp.warp.soc.invite.group
+    - mywarp.warp.soc.private
+    - mywarp.warp.soc.uninvite
+    - mywarp.warp.soc.uninvite.group
+    - mywarp.warp.world.currentworld
     - nocheatplus.checks.moving.creativefly
     - nocheatplus.checks.moving.survivalfly
     - nocheatplus.mods.zombe.cheat
     - nocheatplus.mods.zombe.fly
     - nocheatplus.mods.zombe.noclip
     - plotbuild.staff
+    - plotbuild.trusted
+    - plotbuild.user
+    - plotmanager.build
     - resourceregions.region
     - tab.color.darkgreen
     - thegaffer.create
+    - thegaffer.ignoreprotection
+    - thegaffer.join
+    - topics.rules
     - voxelsniper.brush.*
     - voxelsniper.sniper
     - worldedit.*
+    - worldedit.navigation.unstuck
     - worldguard.halt-activity
     inheritance: []
   enforcer:
@@ -215,11 +467,12 @@ groups:
       rank: '400'
     permissions:
     - BuildFixes.moderator
+    - MCMESuite.admin
+    - Tours.ranger
     - bukkit.command.ban.list
     - bukkit.command.ban.player
     - bukkit.command.kick
     - bukkit.command.unban.player
-    - chatsuite.groups.enforcer
     - dynmap.hide.self
     - dynmap.radiusrender
     - dynmap.show.self
@@ -265,7 +518,6 @@ groups:
     - essentials.unban
     - essentials.unbanip
     - group.enforcer
-    - MCMESuite.admin
     - minigames.staff
     - multiverse.access.moria
     - multiverse.access.private
@@ -315,7 +567,6 @@ groups:
     - pv.use
     - tab.color.gold
     - thegaffer.create
-    - Tours.ranger
     - worldedit.navigation.*
     - worldedit.remove
     - worldguard.notify
@@ -324,17 +575,149 @@ groups:
     options:f
       rank: '300'
     permissions:
+    - -Tours.ranger
+    - -essentials.list
+    - -minigames.manager
+    - -tab.color.darkaqua
+    - BuildFixes.builder
+    - BuildFixes.moderator
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - Tours.user
+    - Tours.user
+    - architect.ranks.adventurer
+    - architect.ranks.artist
+    - architect.ranks.designer
     - architect.ranks.headDesigner
-    - chatsuite.groups.headdesigner
+    - autoteleport.user
     - dynmap.hide.self
+    - dynmap.radiusrender
     - dynmap.show.self
+    - dynmap.webregister
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.back
     - essentials.ban
+    - essentials.ban.notify
+    - essentials.ban.notify
     - essentials.ban.offline
+    - essentials.bigtree
+    - essentials.chat.url
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.depth
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
+    - essentials.give
+    - essentials.home
+    - essentials.home.bed
+    - essentials.item
+    - essentials.joinfullserver
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.list
+    - essentials.more
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.mute.notify
+    - essentials.mute.notify
+    - essentials.oversizedstacks
+    - essentials.ptime
+    - essentials.pweather
+    - essentials.recipe
+    - essentials.rules
+    - essentials.rules
     - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - essentials.spawn
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpa
+    - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.unlimited
+    - essentials.workbench
+    - group.adventurer
+    - group.artist
+    - group.designer
     - group.headdesigner
+    - guidebook.user
+    - minigames.staff
+    - minigames.user
+    - minigames.user
+    - multiverse.access.moria
+    - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
+    - multiverse.access.private
+    - multiverse.access.themed-builds
+    - multiverse.access.world
+    - multiverse.core.spawn.self
+    - multiverse.core.spawn.self
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.w
+    - multiverse.teleport.self.world
+    - mv.bypass.gamemode.*
+    - mywarp.warp.basic.assets
+    - mywarp.warp.basic.compass
+    - mywarp.warp.basic.createprivate
+    - mywarp.warp.basic.createprivate
+    - mywarp.warp.basic.createpublic
+    - mywarp.warp.basic.delete
+    - mywarp.warp.basic.delete
+    - mywarp.warp.basic.list
+    - mywarp.warp.basic.search
+    - mywarp.warp.basic.update
+    - mywarp.warp.basic.warp
+    - mywarp.warp.basic.welcome
+    - mywarp.warp.sign.create
+    - mywarp.warp.sign.create.all
+    - mywarp.warp.sign.use
+    - mywarp.warp.sign.use
+    - mywarp.warp.soc.accept
+    - mywarp.warp.soc.give
+    - mywarp.warp.soc.give.direct
+    - mywarp.warp.soc.invite
+    - mywarp.warp.soc.invite.group
+    - mywarp.warp.soc.private
+    - mywarp.warp.soc.uninvite
+    - mywarp.warp.soc.uninvite.group
+    - mywarp.warp.world.currentworld
+    - nocheatplus.checks.moving.creativefly
+    - nocheatplus.checks.moving.survivalfly
+    - nocheatplus.mods.zombe.cheat
+    - nocheatplus.mods.zombe.fly
+    - nocheatplus.mods.zombe.noclip
     - perks.trophy
     - permissions.user.demote.default
     - permissions.user.promote.default
+    - plotbuild.staff
+    - plotbuild.trusted
+    - plotbuild.user
+    - plotmanager.build
     - plotmanager.create
     - prism.help
     - prism.lookup
@@ -349,7 +732,19 @@ groups:
     - pv.list
     - pv.use
     - resourceregions.region
+    - resourceregions.region
+    - tab.color.darkgreen
+    - tab.color.darkpurple
     - tab.color.red
+    - thegaffer.create
+    - thegaffer.ignoreprotection
+    - thegaffer.join
+    - topics.rules
+    - voxelsniper.brush.*
+    - voxelsniper.sniper
+    - worldedit.*
+    - worldedit.navigation.unstuck
+    - worldguard.halt-activity
     inheritance: []
   headenforcer:
     options:
