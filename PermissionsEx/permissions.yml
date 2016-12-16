@@ -35,17 +35,8 @@ groups:
       rank: '800'
     permissions:
     - -essentials.list
-    - BuildFixes.builder
-    - MCMESuite.afk
-    - MCMESuite.fly
-    - MCMESuite.msg
-    - MCMESuite.nodeathdrop
-    - MCMESuite.noharvest
-    - MCMESuite.nothrow
-    - MCMESuite.phial
-    - MCMESuite.ring
-    - Tours.user
     - architect.ranks.adventurer
+    - BuildFixes.builder
     - dynmap.webregister
     - essentials.afk
     - essentials.back
@@ -59,7 +50,6 @@ groups:
     - essentials.fly.safelogin
     - essentials.home
     - essentials.home.bed
-    - essentials.kick.notify
     - essentials.kick.notify
     - essentials.kit
     - essentials.kits.*
@@ -86,6 +76,14 @@ groups:
     - essentials.tpdeny
     - group.adventurer
     - guidebook.user
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
     - minigames.user
     - multiverse.access.moria
     - multiverse.access.newplayerworld
@@ -94,9 +92,7 @@ groups:
     - multiverse.access.themed-builds
     - multiverse.access.world
     - multiverse.core.spawn.self
-    - multiverse.core.spawn.self
     - multiverse.teleport.self.oldworld
-    - multiverse.teleport.self.w
     - multiverse.teleport.self.world
     - mywarp.warp.basic.assets
     - mywarp.warp.basic.compass
@@ -121,6 +117,7 @@ groups:
     - plotmanager.build
     - thegaffer.join
     - topics.rules
+    - Tours.user
     - worldedit.navigation.unstuck
     inheritance: []
   guide:
@@ -129,15 +126,6 @@ groups:
     permissions:
     - -essentials.list
     - BuildFixes.builder
-    - MCMESuite.afk
-    - MCMESuite.fly
-    - MCMESuite.msg
-    - MCMESuite.nodeathdrop
-    - MCMESuite.noharvest
-    - MCMESuite.nothrow
-    - MCMESuite.phial
-    - MCMESuite.ring
-    - Tours.ranger
     - dynmap.webregister
     - essentials.afk
     - essentials.back
@@ -183,6 +171,14 @@ groups:
     - group.guide
     - guidebook.staff
     - guidebook.user
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
     - minigames.manager
     - minigames.user
     - multiverse.access.moria
@@ -191,7 +187,6 @@ groups:
     - multiverse.access.plotworld
     - multiverse.access.themed-builds
     - multiverse.access.world
-    - multiverse.core.spawn.self
     - multiverse.core.spawn.self
     - multiverse.teleport.self.oldworld
     - multiverse.teleport.self.w
@@ -220,6 +215,8 @@ groups:
     - tab.color.darkaqua
     - thegaffer.join
     - topics.rules
+    - Tours.ranger
+    - Tours.user
     - worldedit.navigation.unstuck
     inheritance: []
   artist:
@@ -227,17 +224,8 @@ groups:
       rank: '600'
     permissions:
     - -essentials.list
-    - BuildFixes.builder
-    - MCMESuite.afk
-    - MCMESuite.fly
-    - MCMESuite.msg
-    - MCMESuite.nodeathdrop
-    - MCMESuite.noharvest
-    - MCMESuite.nothrow
-    - MCMESuite.phial
-    - MCMESuite.ring
-    - Tours.user
     - architect.ranks.artist
+    - BuildFixes.builder
     - dynmap.webregister
     - essentials.afk
     - essentials.afk.kickexempt
@@ -285,6 +273,14 @@ groups:
     - group.adventurer
     - group.artist
     - guidebook.user
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
     - minigames.user
     - multiverse.access.moria
     - multiverse.access.newplayerworld
@@ -322,6 +318,7 @@ groups:
     - thegaffer.ignoreprotection
     - thegaffer.join
     - topics.rules
+    - Tours.user
     - worldedit.navigation.unstuck
     inheritance: []
   designer:
@@ -329,20 +326,10 @@ groups:
       rank: '500'
     permissions:
     - -essentials.list
-    - BuildFixes.builder
-    - BuildFixes.moderator
-    - MCMESuite.admin
-    - MCMESuite.afk
-    - MCMESuite.fly
-    - MCMESuite.msg
-    - MCMESuite.nodeathdrop
-    - MCMESuite.noharvest
-    - MCMESuite.nothrow
-    - MCMESuite.phial
-    - MCMESuite.ring
-    - Tours.user
     - architect.ranks.designer
     - autoteleport.user
+    - BuildFixes.builder
+    - BuildFixes.moderator
     - dynmap.radiusrender
     - dynmap.webregister
     - essentials.afk
@@ -402,6 +389,15 @@ groups:
     - essentials.workbench
     - group.designer
     - guidebook.user
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
     - minigames.staff
     - minigames.user
     - multiverse.access.moria
@@ -456,6 +452,7 @@ groups:
     - thegaffer.ignoreprotection
     - thegaffer.join
     - topics.rules
+    - Tours.user
     - voxelsniper.brush.*
     - voxelsniper.sniper
     - worldedit.*
@@ -467,8 +464,6 @@ groups:
       rank: '400'
     permissions:
     - BuildFixes.moderator
-    - MCMESuite.admin
-    - Tours.ranger
     - bukkit.command.ban.list
     - bukkit.command.ban.player
     - bukkit.command.kick
@@ -484,9 +479,11 @@ groups:
     - essentials.bigtree
     - essentials.break
     - essentials.break.bedrock
+    - essentials.chat.url
     - essentials.delhome.others
     - essentials.enderchest
     - essentials.gamemode
+    - essentials.geoip.show
     - essentials.home.others
     - essentials.invsee
     - essentials.joinfullserver
@@ -518,10 +515,28 @@ groups:
     - essentials.unban
     - essentials.unbanip
     - group.enforcer
-    - minigames.staff
+    - guidebook.staff
+    - guidebook.user
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - minigames.staff    
+    - minigames.user
     - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
     - multiverse.access.private
+    - multiverse.access.themed-builds
+    - multiverse.access.world
     - multiverse.core.spawn.other
+    - mv.bypass.gamemode.*
     - mywarp.admin.accessall
     - mywarp.warp.basic.assets
     - mywarp.warp.basic.assets.other
@@ -539,6 +554,7 @@ groups:
     - permissions.user.demote.default
     - permissions.user.promote.default
     - plotbuild.supervisor
+    - plotbuild.user
     - prism.alerts
     - prism.help
     - prism.lookup
@@ -566,37 +582,26 @@ groups:
     - pv.tptg
     - pv.use
     - tab.color.gold
-    - thegaffer.create
+    - thegaffer.join
+    - Tours.ranger
+    - Tours.user
     - worldedit.navigation.*
     - worldedit.remove
+    - worldguard.halt-activity
     - worldguard.notify
     inheritance: []
   headdesigner:
     options:f
       rank: '300'
     permissions:
-    - -Tours.ranger
     - -essentials.list
     - -minigames.manager
     - -tab.color.darkaqua
-    - BuildFixes.builder
-    - BuildFixes.moderator
-    - MCMESuite.admin
-    - MCMESuite.afk
-    - MCMESuite.fly
-    - MCMESuite.msg
-    - MCMESuite.nodeathdrop
-    - MCMESuite.noharvest
-    - MCMESuite.nothrow
-    - MCMESuite.phial
-    - MCMESuite.ring
-    - Tours.user
-    - Tours.user
-    - architect.ranks.adventurer
-    - architect.ranks.artist
-    - architect.ranks.designer
+    - -Tours.ranger
     - architect.ranks.headDesigner
     - autoteleport.user
+    - BuildFixes.builder
+    - BuildFixes.moderator
     - dynmap.hide.self
     - dynmap.radiusrender
     - dynmap.show.self
@@ -609,6 +614,7 @@ groups:
     - essentials.ban.notify
     - essentials.ban.offline
     - essentials.bigtree
+    - essentials.chat.url
     - essentials.chat.url
     - essentials.clearinventory
     - essentials.delhome
@@ -663,11 +669,19 @@ groups:
     - group.artist
     - group.designer
     - group.headdesigner
+    - guidebook.staff
     - guidebook.user
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
     - minigames.staff
     - minigames.user
-    - minigames.user
-    - multiverse.access.moria
     - multiverse.access.moria
     - multiverse.access.newplayerworld
     - multiverse.access.oldworld
@@ -730,8 +744,13 @@ groups:
     - prism.wand.profile
     - pv.help
     - pv.list
+    - pv.login
+    - pv.logout
+    - pv.release
+    - pv.see
+    - pv.target
+    - pv.tptg
     - pv.use
-    - resourceregions.region
     - resourceregions.region
     - tab.color.darkgreen
     - tab.color.darkpurple
@@ -740,6 +759,7 @@ groups:
     - thegaffer.ignoreprotection
     - thegaffer.join
     - topics.rules
+    - Tours.user
     - voxelsniper.brush.*
     - voxelsniper.sniper
     - worldedit.*
@@ -750,13 +770,53 @@ groups:
     options:
       rank: '200'
     permissions:
+    - essentials.chat.url
+    - essentials.geoip.show
     - group.headenforcer
+    - guidebook.staff
+    - guidebook.user
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - minigames.user
+    - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
+    - multiverse.access.private
+    - multiverse.access.themed-builds
+    - multiverse.access.world
+    - multiverse.core.spawn.self
+    - multiverse.core.spawn.self
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.w
+    - multiverse.teleport.self.world
+    - mv.bypass.gamemode.*    
     - perks.trophy
     - permissions.user.demote.default
     - permissions.user.promote.default
+    - pv.help
+    - pv.list
+    - pv.login
+    - pv.logout
+    - pv.release
+    - pv.see
+    - pv.target
+    - pv.tptg
+    - pv.use
     - tab.color.red
+    - thegaffer.ignoreprotection
+    - thegaffer.join
     - Tours.admin
     - Tours.ranger
+    - Tours.user
+    - worldguard.halt-activity
     inheritance: []
   root:
     options:
@@ -766,13 +826,40 @@ groups:
     - -essentials.silentjoin.vanish
     - dynmap.*
     - essentials.ban.exempt
+    - essentials.chat.url
     - essentials.joinfullserver
     - group.root
+    - guidebook.staff
+    - guidebook.user
+    - MCMESuite.admin
+    - MCMESuite.afk
+    - MCMESuite.fly
+    - MCMESuite.msg
+    - MCMESuite.nodeathdrop
+    - MCMESuite.noharvest
+    - MCMESuite.nothrow
+    - MCMESuite.phial
+    - MCMESuite.ring
+    - minigames.user
+    - multiverse.*
     - mywarp.warp.world.*
     - perks.trophy
     - permissions.*
     - privileges.*
+    - pv.help
+    - pv.list
+    - pv.login
+    - pv.logout
+    - pv.release
+    - pv.see
+    - pv.target
+    - pv.tptg
+    - pv.use
     - tab.color.darkred
+    - thegaffer.ignoreprotection
+    - thegaffer.join
+    - Tours.ranger
+    - Tours.user
     - worldedit.*
     - worldguard.*
     inheritance: []
