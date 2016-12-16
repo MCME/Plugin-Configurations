@@ -41,7 +41,6 @@ groups:
     - essentials.afk
     - essentials.back
     - essentials.ban.notify
-    - essentials.ban.notify
     - essentials.chat.url
     - essentials.clearinventory
     - essentials.delhome
@@ -68,7 +67,6 @@ groups:
     - essentials.rules
     - essentials.sethome
     - essentials.sethome.bed
-    - essentials.spawn
     - essentials.spawn
     - essentials.tpa
     - essentials.tpaccept
@@ -129,8 +127,6 @@ groups:
     - dynmap.webregister
     - essentials.afk
     - essentials.back
-    - essentials.back
-    - essentials.ban.notify
     - essentials.ban.notify
     - essentials.chat.url
     - essentials.clearinventory
@@ -143,7 +139,6 @@ groups:
     - essentials.home.bed
     - essentials.jump
     - essentials.kick.notify
-    - essentials.kick.notify
     - essentials.kit
     - essentials.kits.*
     - essentials.more
@@ -154,10 +149,8 @@ groups:
     - essentials.msg.magic
     - essentials.msg.url
     - essentials.mute.notify
-    - essentials.mute.notify
     - essentials.ptime
     - essentials.pweather
-    - essentials.rules
     - essentials.rules
     - essentials.sethome
     - essentials.sethome.bed
@@ -247,7 +240,6 @@ groups:
     - essentials.kick.notify
     - essentials.kit
     - essentials.kits.*
-    - essentials.list
     - essentials.more
     - essentials.motd
     - essentials.msg
@@ -260,7 +252,6 @@ groups:
     - essentials.oversizedstacks
     - essentials.ptime
     - essentials.pweather
-    - essentials.rules
     - essentials.rules
     - essentials.sethome
     - essentials.sethome.bed
@@ -336,7 +327,6 @@ groups:
     - essentials.afk.kickexempt
     - essentials.back
     - essentials.ban.notify
-    - essentials.ban.notify
     - essentials.bigtree
     - essentials.chat.url
     - essentials.clearinventory
@@ -353,7 +343,6 @@ groups:
     - essentials.jump
     - essentials.kick
     - essentials.kick.notify
-    - essentials.kick.notify
     - essentials.kit
     - essentials.kits.*
     - essentials.list
@@ -365,12 +354,10 @@ groups:
     - essentials.msg.magic
     - essentials.msg.url
     - essentials.mute.notify
-    - essentials.mute.notify
     - essentials.oversizedstacks
     - essentials.ptime
     - essentials.pweather
     - essentials.recipe
-    - essentials.rules
     - essentials.rules
     - essentials.sethome
     - essentials.sethome.bed
@@ -400,7 +387,6 @@ groups:
     - MCMESuite.ring
     - minigames.staff
     - minigames.user
-    - multiverse.access.moria
     - multiverse.access.moria
     - multiverse.access.newplayerworld
     - multiverse.access.oldworld
@@ -533,6 +519,8 @@ groups:
     - multiverse.access.oldworld
     - multiverse.access.plotworld
     - multiverse.access.private
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.world    
     - multiverse.access.themed-builds
     - multiverse.access.world
     - multiverse.core.spawn.other
@@ -611,10 +599,8 @@ groups:
     - essentials.back
     - essentials.ban
     - essentials.ban.notify
-    - essentials.ban.notify
     - essentials.ban.offline
     - essentials.bigtree
-    - essentials.chat.url
     - essentials.chat.url
     - essentials.clearinventory
     - essentials.delhome
@@ -629,7 +615,6 @@ groups:
     - essentials.joinfullserver
     - essentials.jump
     - essentials.kick
-    - essentials.kick.notify
     - essentials.kick.notify
     - essentials.kit
     - essentials.kits.*
@@ -692,7 +677,6 @@ groups:
     - multiverse.core.spawn.self
     - multiverse.core.spawn.self
     - multiverse.teleport.self.oldworld
-    - multiverse.teleport.self.w
     - multiverse.teleport.self.world
     - mv.bypass.gamemode.*
     - mywarp.warp.basic.assets
@@ -772,6 +756,62 @@ groups:
     permissions:
     - essentials.chat.url
     - essentials.geoip.show
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.back
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.ban.offline
+    - essentials.bigtree
+    - essentials.chat.url
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.depth
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
+    - essentials.give
+    - essentials.home
+    - essentials.home.bed
+    - essentials.item
+    - essentials.joinfullserver
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.list
+    - essentials.more
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.mute.notify
+    - essentials.mute.notify
+    - essentials.oversizedstacks
+    - essentials.ptime
+    - essentials.pweather
+    - essentials.recipe
+    - essentials.rules
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - essentials.spawn
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpa
+    - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.unlimited
+    - essentials.workbench
     - group.headenforcer
     - guidebook.staff
     - guidebook.user
@@ -795,7 +835,6 @@ groups:
     - multiverse.core.spawn.self
     - multiverse.core.spawn.self
     - multiverse.teleport.self.oldworld
-    - multiverse.teleport.self.w
     - multiverse.teleport.self.world
     - mv.bypass.gamemode.*    
     - perks.trophy
@@ -825,9 +864,65 @@ groups:
     - -essentials.afk.auto
     - -essentials.silentjoin.vanish
     - dynmap.*
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.back
+    - essentials.ban
     - essentials.ban.exempt
+    - essentials.ban.notify
+    - essentials.ban.offline
+    - essentials.bigtree
     - essentials.chat.url
+    - essentials.chat.url
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.depth
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
+    - essentials.give
+    - essentials.home
+    - essentials.home.bed
+    - essentials.item
     - essentials.joinfullserver
+    - essentials.joinfullserver
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.list
+    - essentials.more
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.url
+    - essentials.mute.notify
+    - essentials.mute.notify
+    - essentials.oversizedstacks
+    - essentials.ptime
+    - essentials.pweather
+    - essentials.recipe
+    - essentials.rules
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - essentials.spawn
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpa
+    - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.unlimited
+    - essentials.workbench
     - group.root
     - guidebook.staff
     - guidebook.user
@@ -841,7 +936,15 @@ groups:
     - MCMESuite.phial
     - MCMESuite.ring
     - minigames.user
-    - multiverse.*
+    - multiverse.*    
+    - multiverse.access.moria
+    - multiverse.access.newplayerworld
+    - multiverse.access.oldworld
+    - multiverse.access.plotworld
+    - multiverse.access.themed-builds
+    - multiverse.access.world    
+    - multiverse.teleport.self.oldworld
+    - multiverse.teleport.self.world
     - mywarp.warp.world.*
     - perks.trophy
     - permissions.*
